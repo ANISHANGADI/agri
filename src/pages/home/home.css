@@ -1,0 +1,55 @@
+.header
+{
+   width: 100vw;
+    height: 80vh;
+    display: grid;
+    align-items: center;
+    
+}
+.main__container
+{
+    display: grid;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+}
+.main__container-left h4{
+    margin-bottom: 1rem;
+    color: green;
+    font-weight: 400;
+}
+
+.main__container-left p{
+    margin: 1rem 0 3.5rem;
+    font-size: 1.1rem;
+
+}
+
+.btn__header
+{
+    color: var(--color-gray-100);
+    width:  fit-content;
+    padding: 0.9rem 2rem;
+    margin: 0 auto;
+    background: var(--color-primary);
+     border-radius: 0.5rem;
+     transition: var(--transition);
+
+}
+.btn__header:hover{
+    background: var(--color-secondary);
+    color:aquamarine
+}
+.btn__header.lg{
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+
+.main__container-right{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
